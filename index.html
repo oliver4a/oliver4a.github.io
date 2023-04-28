@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>pisiforme</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+	<header>
+		<h1>Mi Currículum</h1>
+	</header>
+    <section>
+        <div>
+            <img src="gatoEri.png" width="400">
+        </div>
+    </section> 
+	<section>
+        <hr>
+		<h2>Datos Personales</h2>
+		<ul>
+			<li>Nombre: El Causa</li>
+			<li>Email: elcausa@email.com</li>
+			<li>Teléfono: 123-456-789</li>
+			<li>Dirección: Iturri 754</li>
+		</ul>
+	</section>
+	<section>
+        <hr>
+		<h2>Experiencia Laboral</h2>
+		<ul>
+			<li>Empresa A - Cargo: Desarrollador Web - Fecha: Enero 2020 - Actualidad</li>
+			<li>Empresa B - Cargo: Diseñador Gráfico - Fecha: Enero 2018 - Diciembre 2019</li>
+		</ul>
+	</section>
+	<section>
+        <hr>
+		<h2>Educación</h2>
+		<ul>
+			<li>Universidad XYZ - Licenciatura en Informática - Fecha de graduación: Mayo 2017</li>
+			<li>Certificación ABC - Diseño Gráfico - Fecha de obtención: Septiembre 2015</li>
+		</ul>
+	</section>
+	<section>
+        <hr>
+		<h2>Formulario de Contacto</h2>
+		<form action="mailto:augustooliverayoldez@gmail.com" method="post">
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre" placeholder="Tú nombre." required><br>
+
+			<label for="correo">Correo Electrónico:</label>
+			<input type="email" id="correo" name="correo" placeholder="Tú correo." required><br>
+
+			<label for="telefono">Teléfono:</label>
+			<input type="tel" id="telefono" name="telefono" placeholder="Tú Telefono. (Opcional)"><br>
+			
+            <label for="mensaje">Mensaje:</label><br>
+			<textarea id="mensaje" name="mensaje" rows="4" cols="40" placeholder="Deja un mensaje. (Opcional)"></textarea><br>
+            
+            <label for="terminos">Sos feliz?:</label>
+            <input type="checkbox" id="terminos" name="terminos" required><br>
+			
+            <input type="submit" value="Enviar">
+			<input type="reset" value="Borrar">
+		</form>
+	</section>
+</body>
+
+</html>
