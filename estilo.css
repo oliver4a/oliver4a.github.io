@@ -10,7 +10,9 @@ header {
     background-color: #4c93b6;
     color: #f9f3ed;
     text-align: center;
-    padding: 20px;
+    position: fixed;
+    width: 100%;
+    padding: 30px;
 }
 
 img {
@@ -22,7 +24,7 @@ img {
 h1 {
     margin: 0;
     font-size: 36px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 h2 {
