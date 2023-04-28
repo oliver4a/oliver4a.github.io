@@ -12,7 +12,7 @@ header {
     text-align: center;
     position: fixed;
     width: 100%;
-    padding: 30px;
+    padding: 10px;
 }
 
 img {
@@ -21,16 +21,17 @@ img {
     border: 2px solid #ccc;
 }
 
+section div{
+    padding-top: 120px;
+}
+
 h1 {
-    margin: 0;
     font-size: 36px;
-    font-weight: bold;
 }
 
 h2 {
     font-size: 24px;
-    font-weight: normal;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 20px;
     color: #4c93b6;
 }
@@ -43,7 +44,6 @@ ul {
 li {
     margin-bottom: 10px;
 }
-
 
 input[type="text"],
 input[type="email"],
